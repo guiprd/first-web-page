@@ -1,0 +1,40 @@
+body{
+    background-color: gainsboro;
+}
+
+#title, #subtitle, .post_title{
+    color: green;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.post{
+    background-color: white;
+    padding: 15px 10px 5px 0px;
+    border-left: 3px dotted black;
+    border-right: 3px dotted green;
+    border-top: 3px solid wheat;
+    border-bottom: 3px dashed cyan;
+    border-radius: 10px;
+    margin: 10px;
+}
+.round-img{
+    border-radius: 50%;
+}
+
+.centered-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered-text{
+    text-align: center;
+}
+
+.padding{
+    padding: 15px;
+}
